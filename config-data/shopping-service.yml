@@ -49,7 +49,8 @@ Feign:
       proxy-stream-allow-list: "*"
   ribbon:
     enabled: true
-  circuitbreaker:
+health:    
+  circuitbreakers:    
     enabled: true
 management:
   endpoints:
