@@ -67,3 +67,6 @@ resilience4j:
     instances:
       customers:
         base-config: default
+feign:
+  circuitbreaker:
+    enabled: true
