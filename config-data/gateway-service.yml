@@ -26,3 +26,5 @@ spring:
           uri: lb://shopping-service
           predicates:
             - Path=/invoices/**
+    discovery:
+      enabled=true
